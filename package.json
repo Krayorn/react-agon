@@ -1,6 +1,6 @@
 {
     "name": "react-agon",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "ReactJS gamification components made for agon",
     "main": "build/index.js",
     "peerDependencies": {},
