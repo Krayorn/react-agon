@@ -1,0 +1,32 @@
+{
+    "name": "react-agon",
+    "version": "0.0.1",
+    "description": "ReactJS gamification components made for agon",
+    "main": "build/index.js",
+    "peerDependencies": {},
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.5.2",
+        "webpack": "^4.22.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "author": {
+        "name": "Nathael Arki",
+        "email": "nathael.arki@supinternet.fr"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "7",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "react-dom": "^16.6.0",
+        "styled-components": "^4.0.2",
+        "webpack-cli": "^3.1.2"
+    }
+}
