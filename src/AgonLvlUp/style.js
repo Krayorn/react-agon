@@ -7,26 +7,26 @@ export const Container = styled.div`
     padding: 15px;
     position: absolute;
 
-    ${props => {
-        if (props.variant == 'rounded') {
+    ${({variant}) => {
+        if (variant == 'rounded') {
             return (`
-                background-color: purple;
+                background-color: #550527;
                 border-radius: 75px;
                 margin: auto;
                 left: 0;
                 right: 0;
                 width: fit-content;
             `)
-        } else if (props.variant == 'dismiss') {
+        } else if (variant == 'dismiss') {
             return (`
                 width: fill-available;
-                background-color: red;
+                background-color: #d74251;
                 border-radius: 10px;
             `)
         } else {
             return (`
                 width: fill-available;
-                background-color: blue;
+                background-color: #7b70ab;
             `)
         }
     }}
@@ -35,16 +35,16 @@ export const Container = styled.div`
 export const Icon = styled.div`
     margin-right: 25px;
 
-    ${props => {
-        if (props.variant == 'rounded') {
+    ${({variant}) => {
+        if (variant == 'rounded') {
             return (`
-            background-color: white;
-            border-radius: 100%;
-            min-width: 85px;
-            min-height: 85px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+                background-color: white;
+                border-radius: 100%;
+                min-width: 85px;
+                min-height: 85px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             `)
         }
     }}
